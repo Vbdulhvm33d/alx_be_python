@@ -5,10 +5,10 @@ cold = "Make sure to wear a warm coat and a scarf."
 #collect input from user
 weather_status = input("What's the weather like today? (sunny/rainy/cold): ")
 if sunny:
-    print("Wear a t-shirt and sunglasses.")
+    print(sunny)
 elif rainy:
-    print("Don't forget your umbrella and a raincoat.")
+    print(rainy)
 elif cold:
-    print("Make sure to wear a warm coat and a scarf.")
+    print(cold)
 else:
     print("Sorry, I don't have recommendations for this weather.")
