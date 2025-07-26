@@ -16,7 +16,7 @@ def perform_operation(num1, num2, operation):
     elif operation == divide:
         divide = num1 / num2
         if num2 == 0:
-            print(f"error encountered,change your dividend")
+            print("error: cannot divide by zero")
         else:
             print(f"result: {divide}")
 
