@@ -16,12 +16,12 @@ while True :
         
 
         if choice == "1":
-                updated_list = shopping_list.append(input("enter item to include: "))
+                updated_list = shopping_list.append(input("enter the item to add: "))
                 pass
                 
         
         elif choice == "2":
-            updated_list = shopping_list.remove(input("enter item to be removed: "))
+            updated_list = shopping_list.remove(input("enter the item to remove: "))
             pass
 
         elif choice == "3":
