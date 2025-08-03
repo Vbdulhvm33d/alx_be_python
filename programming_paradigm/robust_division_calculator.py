@@ -36,7 +36,7 @@ def safe_divide(numerator, denominator):
         return("Error: Cannot divide by zero.") 
     
     except ValueError:
-        return("Error: Please enter valid numeric values.") 
+        return("Error: Please enter numeric values only.") 
     
 division = safe_divide(4,0)
 print(division)
