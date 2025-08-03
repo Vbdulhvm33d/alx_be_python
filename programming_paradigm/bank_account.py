@@ -4,14 +4,12 @@ class BankAccount:
     def __init__(self, account_balance=0):
         self.account_balance = account_balance
     def deposit(self, amount):
-        #this line houses the code 
         if amount > 0:
             self.account_balance += amount
             print(f"Deposited: ${amount:.1f}")
         else:
             print("please enter a positive amount")
     def withdraw(self, amount):
-        #this code houses the code
         if amount <= self.account_balance:
             self.account_balance -= amount
             print(f"Withdrew: ${amount:.1f}")
@@ -21,7 +19,3 @@ class BankAccount:
             return False       
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance:.1f}")
-#my_acct = BankAccount(0)
-#my_acct.deposit(100)
-#my_acct.withdraw(49)
-#my_acct.display_balance()
