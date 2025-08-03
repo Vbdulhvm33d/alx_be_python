@@ -33,10 +33,10 @@ def safe_divide(numerator, denominator):
         return f"Result: {result:.2f}"
     
     except ZeroDivisionError:
-        return "Error: you cannot divide by zero."
+        return("Error: Cannot divide by zero.") 
     
     except ValueError:
-        return "Error: Please enter valid numeric values."
+        return("Error: Please enter valid numeric values.") 
     
 division = safe_divide(4,0)
 print(division)
