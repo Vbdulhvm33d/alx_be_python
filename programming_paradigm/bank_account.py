@@ -9,7 +9,7 @@ class BankAccount:
         #this line houses the code 
         if amount > 0:
             self.account_balance += amount
-            print(f"Deposited ${amount}")
+            print(f"Deposited: ${amount}")
         else:
             print("please enter a positive amount")
 
@@ -17,7 +17,7 @@ class BankAccount:
         #this code houses the code
         if amount <= self.account_balance:
             self.account_balance -= amount
-            print(f"Withdrew ${amount}")
+            print(f"Withdrew: ${amount}")
             return True
         
         elif amount > self.account_balance:
