@@ -30,7 +30,7 @@ def safe_divide(numerator, denominator):
         
         # Attempt the division
         result = num / den
-        return f"Result: {result:.2f}"
+        return f"The result of the division is {result:.1f}"
     
     except ZeroDivisionError:
         return("Error: Cannot divide by zero.") 
