@@ -12,7 +12,7 @@ class Calculator:
     @classmethod
     def multiply(cls, a, b):
         """Class method to multiply two numbers."""
-        print(f"Calculation Type: {cls.calculation_type}")
+        print(f"Calculation type: {cls.calculation_type}")
         return a * b
 
 
