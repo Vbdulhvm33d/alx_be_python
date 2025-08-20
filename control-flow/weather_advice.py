@@ -7,7 +7,7 @@ cold = "Make sure to wear a warm coat and a scarf."
 #prompting users for input
 
 if weather.lower() == "sunny":
-    print(sunny)
+    print("Wear a t-shirt and sunglasses.")
 elif weather.lower() == "rainy":
     print(rainy)
 elif weather.lower() == "cold":
